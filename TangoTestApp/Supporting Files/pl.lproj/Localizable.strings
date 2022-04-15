@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  TangoTestApp
+
+  Created by Okzhetpes Valikhanov on 15.04.2022.
+  
+*/
+"products_title" = "Produkty";
+"enter_product_name" = "Wprowadź nazwę produktu";
+"error" = "Błąd";
+"ok" = "Ok";
+"decode_error" = "Błąd dekodowania";
+"session_expired_error" = "Sesja wygasła";
+"unknown_error" = "Nieznany błąd";

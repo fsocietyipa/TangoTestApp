@@ -24,7 +24,7 @@ final class MainViewController: UIViewController, MainViewControllerType, Loadab
     private let searchController: UISearchController = {
         let sc = UISearchController(searchResultsController: nil)
         sc.obscuresBackgroundDuringPresentation = false
-        sc.searchBar.placeholder = "Enter product name"
+        sc.searchBar.placeholder = String(localized: "enter_product_name")
         return sc
     }()
     
@@ -61,7 +61,7 @@ final class MainViewController: UIViewController, MainViewControllerType, Loadab
     
     func setupViews() {
         view.backgroundColor = .white
-        title = "Products"
+        title = String(localized: "products_title")
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.searchController = searchController
         [mainView].forEach({ view.addSubview($0) })
@@ -72,8 +72,8 @@ final class MainViewController: UIViewController, MainViewControllerType, Loadab
     }
     
     func showError(message: String) {
-        let alertController = UIAlertController(title: "Error", message: message, preferredStyle: .alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: .default))
+        let alertController = UIAlertController(title: String(localized: "error"), message: message, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: String(localized: "ok"), style: .default))
         self.present(alertController, animated: true)
     }
     

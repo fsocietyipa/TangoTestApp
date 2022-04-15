@@ -27,12 +27,11 @@ enum RequestError: Error {
     var customMessage: String {
         switch self {
         case .decode:
-            return "Decode error"
+            return String(localized: "decode_error")
         case .unauthorized:
-            return "Session expired"
+            return String(localized: "session_expired_error")
         default:
-            return "Unknown error"
+            return String(localized: "unknown_error")
         }
     }
 }
-
