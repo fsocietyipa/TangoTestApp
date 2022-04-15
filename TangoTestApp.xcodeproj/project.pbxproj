@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6EFD75D72809DFBF004676B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD75D62809DFBF004676B6 /* AppDelegate.swift */; };
-		6EFD75D92809DFBF004676B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD75D82809DFBF004676B6 /* SceneDelegate.swift */; };
-		6EFD75DB2809DFC0004676B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD75DA2809DFBF004676B6 /* ViewController.swift */; };
-		6EFD75DE2809DFC0004676B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD75DC2809DFC0004676B6 /* Main.storyboard */; };
-		6EFD75E02809DFC1004676B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD75DF2809DFC1004676B6 /* Assets.xcassets */; };
-		6EFD75E32809DFC1004676B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD75E12809DFC1004676B6 /* LaunchScreen.storyboard */; };
+		6EFD76312809E1C9004676B6 /* ProductInfoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD761A2809E1C9004676B6 /* ProductInfoCellViewModel.swift */; };
+		6EFD76322809E1C9004676B6 /* ProductInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD761B2809E1C9004676B6 /* ProductInfoCell.swift */; };
+		6EFD76332809E1C9004676B6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD761C2809E1C9004676B6 /* MainViewController.swift */; };
+		6EFD76342809E1C9004676B6 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD761D2809E1C9004676B6 /* MainViewModel.swift */; };
+		6EFD76352809E1C9004676B6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD761E2809E1C9004676B6 /* MainView.swift */; };
+		6EFD76362809E1C9004676B6 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76202809E1C9004676B6 /* ApiService.swift */; };
+		6EFD76372809E1C9004676B6 /* RequestHelpEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76212809E1C9004676B6 /* RequestHelpEnums.swift */; };
+		6EFD76382809E1C9004676B6 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76232809E1C9004676B6 /* Products.swift */; };
+		6EFD76392809E1C9004676B6 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76242809E1C9004676B6 /* HTTPClient.swift */; };
+		6EFD763A2809E1C9004676B6 /* ApiEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76252809E1C9004676B6 /* ApiEndpoint.swift */; };
+		6EFD763B2809E1C9004676B6 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76262809E1C9004676B6 /* Endpoint.swift */; };
+		6EFD763C2809E1C9004676B6 /* Anchor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76282809E1C9004676B6 /* Anchor+Extension.swift */; };
+		6EFD763D2809E1C9004676B6 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76292809E1C9004676B6 /* ImageLoader.swift */; };
+		6EFD763E2809E1C9004676B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD762A2809E1C9004676B6 /* Assets.xcassets */; };
+		6EFD763F2809E1C9004676B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFD762B2809E1C9004676B6 /* LaunchScreen.storyboard */; };
+		6EFD76402809E1C9004676B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD762D2809E1C9004676B6 /* AppDelegate.swift */; };
+		6EFD76412809E1C9004676B6 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD762E2809E1C9004676B6 /* Loadable.swift */; };
+		6EFD76432809E1C9004676B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFD76302809E1C9004676B6 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6EFD75D32809DFBF004676B6 /* TangoTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangoTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EFD75D62809DFBF004676B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6EFD75D82809DFBF004676B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6EFD75DA2809DFBF004676B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6EFD75DD2809DFC0004676B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6EFD75DF2809DFC1004676B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6EFD75E22809DFC1004676B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EFD75E42809DFC1004676B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFD761A2809E1C9004676B6 /* ProductInfoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoCellViewModel.swift; sourceTree = "<group>"; };
+		6EFD761B2809E1C9004676B6 /* ProductInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductInfoCell.swift; sourceTree = "<group>"; };
+		6EFD761C2809E1C9004676B6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		6EFD761D2809E1C9004676B6 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		6EFD761E2809E1C9004676B6 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6EFD76202809E1C9004676B6 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		6EFD76212809E1C9004676B6 /* RequestHelpEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHelpEnums.swift; sourceTree = "<group>"; };
+		6EFD76232809E1C9004676B6 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		6EFD76242809E1C9004676B6 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		6EFD76252809E1C9004676B6 /* ApiEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiEndpoint.swift; sourceTree = "<group>"; };
+		6EFD76262809E1C9004676B6 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		6EFD76282809E1C9004676B6 /* Anchor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Anchor+Extension.swift"; sourceTree = "<group>"; };
+		6EFD76292809E1C9004676B6 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		6EFD762A2809E1C9004676B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EFD762C2809E1C9004676B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EFD762D2809E1C9004676B6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EFD762E2809E1C9004676B6 /* Loadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		6EFD76302809E1C9004676B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +80,67 @@
 		6EFD75D52809DFBF004676B6 /* TangoTestApp */ = {
 			isa = PBXGroup;
 			children = (
-				6EFD75D62809DFBF004676B6 /* AppDelegate.swift */,
-				6EFD75D82809DFBF004676B6 /* SceneDelegate.swift */,
-				6EFD75DA2809DFBF004676B6 /* ViewController.swift */,
-				6EFD75DC2809DFC0004676B6 /* Main.storyboard */,
-				6EFD75DF2809DFC1004676B6 /* Assets.xcassets */,
-				6EFD75E12809DFC1004676B6 /* LaunchScreen.storyboard */,
+				6EFD76182809E1C9004676B6 /* Main */,
+				6EFD761F2809E1C9004676B6 /* Networking */,
+				6EFD76272809E1C9004676B6 /* Supporting Files */,
 				6EFD75E42809DFC1004676B6 /* Info.plist */,
 			);
 			path = TangoTestApp;
+			sourceTree = "<group>";
+		};
+		6EFD76182809E1C9004676B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD76192809E1C9004676B6 /* ProductInfoCell */,
+				6EFD761C2809E1C9004676B6 /* MainViewController.swift */,
+				6EFD761D2809E1C9004676B6 /* MainViewModel.swift */,
+				6EFD761E2809E1C9004676B6 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		6EFD76192809E1C9004676B6 /* ProductInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD761A2809E1C9004676B6 /* ProductInfoCellViewModel.swift */,
+				6EFD761B2809E1C9004676B6 /* ProductInfoCell.swift */,
+			);
+			path = ProductInfoCell;
+			sourceTree = "<group>";
+		};
+		6EFD761F2809E1C9004676B6 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD76202809E1C9004676B6 /* ApiService.swift */,
+				6EFD76212809E1C9004676B6 /* RequestHelpEnums.swift */,
+				6EFD76222809E1C9004676B6 /* Models */,
+				6EFD76242809E1C9004676B6 /* HTTPClient.swift */,
+				6EFD76252809E1C9004676B6 /* ApiEndpoint.swift */,
+				6EFD76262809E1C9004676B6 /* Endpoint.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6EFD76222809E1C9004676B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD76232809E1C9004676B6 /* Products.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EFD76272809E1C9004676B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD76282809E1C9004676B6 /* Anchor+Extension.swift */,
+				6EFD76292809E1C9004676B6 /* ImageLoader.swift */,
+				6EFD762A2809E1C9004676B6 /* Assets.xcassets */,
+				6EFD762B2809E1C9004676B6 /* LaunchScreen.storyboard */,
+				6EFD762D2809E1C9004676B6 /* AppDelegate.swift */,
+				6EFD762E2809E1C9004676B6 /* Loadable.swift */,
+				6EFD76302809E1C9004676B6 /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFD75E32809DFC1004676B6 /* LaunchScreen.storyboard in Resources */,
-				6EFD75E02809DFC1004676B6 /* Assets.xcassets in Resources */,
-				6EFD75DE2809DFC0004676B6 /* Main.storyboard in Resources */,
+				6EFD763E2809E1C9004676B6 /* Assets.xcassets in Resources */,
+				6EFD763F2809E1C9004676B6 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,27 +213,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EFD75DB2809DFC0004676B6 /* ViewController.swift in Sources */,
-				6EFD75D72809DFBF004676B6 /* AppDelegate.swift in Sources */,
-				6EFD75D92809DFBF004676B6 /* SceneDelegate.swift in Sources */,
+				6EFD763B2809E1C9004676B6 /* Endpoint.swift in Sources */,
+				6EFD76342809E1C9004676B6 /* MainViewModel.swift in Sources */,
+				6EFD76382809E1C9004676B6 /* Products.swift in Sources */,
+				6EFD76392809E1C9004676B6 /* HTTPClient.swift in Sources */,
+				6EFD763A2809E1C9004676B6 /* ApiEndpoint.swift in Sources */,
+				6EFD76352809E1C9004676B6 /* MainView.swift in Sources */,
+				6EFD763D2809E1C9004676B6 /* ImageLoader.swift in Sources */,
+				6EFD763C2809E1C9004676B6 /* Anchor+Extension.swift in Sources */,
+				6EFD76312809E1C9004676B6 /* ProductInfoCellViewModel.swift in Sources */,
+				6EFD76412809E1C9004676B6 /* Loadable.swift in Sources */,
+				6EFD76372809E1C9004676B6 /* RequestHelpEnums.swift in Sources */,
+				6EFD76362809E1C9004676B6 /* ApiService.swift in Sources */,
+				6EFD76332809E1C9004676B6 /* MainViewController.swift in Sources */,
+				6EFD76322809E1C9004676B6 /* ProductInfoCell.swift in Sources */,
+				6EFD76432809E1C9004676B6 /* SceneDelegate.swift in Sources */,
+				6EFD76402809E1C9004676B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6EFD75DC2809DFC0004676B6 /* Main.storyboard */ = {
+		6EFD762B2809E1C9004676B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EFD75DD2809DFC0004676B6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6EFD75E12809DFC1004676B6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6EFD75E22809DFC1004676B6 /* Base */,
+				6EFD762C2809E1C9004676B6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -292,7 +372,6 @@
 				INFOPLIST_FILE = TangoTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +399,6 @@
 				INFOPLIST_FILE = TangoTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
