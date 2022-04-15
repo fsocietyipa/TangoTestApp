@@ -39,10 +39,12 @@ final class MainViewModel: MainViewModelType {
     
     func getData() {
         delegate?.isFetching(true)
-        Task(priority: .background) {
+        Task(priority: .userInitiated) {
             let result = await service.getProducts()
-            DispatchQueue.main.async {
-                self.delegate?.isFetching(false)
+            defer {
+                DispatchQueue.main.async {
+                    self.delegate?.isFetching(false)
+                }
             }
             switch result {
             case .success(let products):
@@ -60,10 +62,12 @@ final class MainViewModel: MainViewModelType {
     
     func searchProducts(name: String) {
         delegate?.isFetching(true)
-        Task(priority: .background) {
+        Task(priority: .userInitiated) {
             let result = await service.searchProducts(name: name)
-            DispatchQueue.main.async {
-                self.delegate?.isFetching(false)
+            defer {
+                DispatchQueue.main.async {
+                    self.delegate?.isFetching(false)
+                }
             }
             switch result {
             case .success(let products):

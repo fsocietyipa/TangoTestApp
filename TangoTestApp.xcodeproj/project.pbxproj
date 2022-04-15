@@ -111,9 +111,9 @@
 		6EFD761F2809E1C9004676B6 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				6EFD76222809E1C9004676B6 /* Models */,
 				6EFD76202809E1C9004676B6 /* ApiService.swift */,
 				6EFD76212809E1C9004676B6 /* RequestHelpEnums.swift */,
-				6EFD76222809E1C9004676B6 /* Models */,
 				6EFD76242809E1C9004676B6 /* HTTPClient.swift */,
 				6EFD76252809E1C9004676B6 /* ApiEndpoint.swift */,
 				6EFD76262809E1C9004676B6 /* Endpoint.swift */,

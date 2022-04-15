@@ -30,10 +30,10 @@ final class MainViewController: UIViewController, MainViewControllerType, Loadab
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setDelegeates()
-        setActions()
         setupViews()
         setupConstraints()
+        setDelegeates()
+        setActions()
     }
     
     init(viewModel: MainViewModelType) {
